@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 # Load your trained model
-loaded_Model = pickle.load(open('C:/Users/Benjamin/Desktop/Peter/Loan_status_data.sav', 'rb'))
+loaded_Model = pickle.load(open('Loan_status_data.sav', 'rb'))
 
 # Prediction function
 def Loan_status_prediction(Gender, Married, Education, Self_Employed,
@@ -77,3 +77,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
