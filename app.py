@@ -2,7 +2,7 @@
 """
 Created on Fri Oct 17 19:16:09 2025
 
-@author: Benjamin
+@author: Peter
 """
 
 import numpy as np
@@ -77,4 +77,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
