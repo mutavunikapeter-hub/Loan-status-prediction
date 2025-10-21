@@ -39,7 +39,7 @@ def main():
     Education = st.text_input('Education (1 = Graduate, 0 = Not Graduate)')
     Self_Employed = st.text_input('Self Employed (1 = Yes, 0 = No)')
     ApplicantIncome = st.text_input('Applicant Income (e.g., 3000)')
-    CoapplicantIncome = st.text_input('Coapplicant Income (e.g., 0.0)')
+    CoapplicantIncome = st.text_input('Coapplicant Income (e.g., 0)')
     LoanAmount = st.text_input('Loan Amount (e.g., 66)')
     Property_Area = st.text_input('Property Area (0 = Rural, 1 = Semiurban, 2 = Urban)')
 
@@ -71,6 +71,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
