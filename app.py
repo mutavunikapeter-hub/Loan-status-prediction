@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 17 19:16:09 2025
-
-@author: Peter
-"""
 
 import numpy as np
 import pandas as pd
@@ -77,5 +71,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
